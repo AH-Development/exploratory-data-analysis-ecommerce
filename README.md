@@ -22,7 +22,7 @@ The dataset is synthetically generated but mimics realistic e-commerce behavior,
 
 ## 🧰 Tools & Technologies
 
-- Python 3.x
+- Python 
 - Pandas, NumPy
 - Seaborn, Matplotlib
 - Jupyter Notebook
@@ -31,14 +31,12 @@ The dataset is synthetically generated but mimics realistic e-commerce behavior,
 
 ## 📁 Project Structure
 
-├── data/
-│ └── ecommerce_product_performance.csv
-├── notebooks/
-│ └── 01_eda_ecommerce_products.ipynb
-├── img/
-│ └── price_distribution.png
-│ └── correlation_heatmap.png
-├── README.md
+**Project structure:**  
+`data/ecommerce_product_performance.csv`,  
+`notebooks/01_eda_ecommerce_products.ipynb`,  
+`img/price_distribution.png`, `img/correlation_heatmap.png`,  
+`README.md`
+
 
 
 ---
@@ -54,8 +52,8 @@ The dataset is synthetically generated but mimics realistic e-commerce behavior,
 
 ## 🚀 Next Steps
 
-- Use findings to engineer features for predictive models (e.g., Return Rate Prediction).
-- Develop an interactive dashboard (e.g., with Streamlit).
+- Use findings to engineer features for predictive models.
+- Develop an interactive dashboard.
 - Integrate pipeline tracking via MLflow in upcoming MLOps version of the project.
 
 ---
@@ -68,7 +66,7 @@ The dataset is synthetically generated but mimics realistic e-commerce behavior,
 
 ## 👨‍💻 Author
 
-**[Alexandre Henin]**  
+**Alexandre Henin**  
 Junior Data Analyst & MLOps | [LinkedIn](#) | [Portfolio](#) | [GitHub](#)
 
 ---
