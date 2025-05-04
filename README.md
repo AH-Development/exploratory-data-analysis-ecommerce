@@ -1,29 +1,78 @@
-## 🔍 Project Overview
+# 🛒 EDA - E-Commerce Product Performance
 
-This project explores the "E-Commerce Product Performance" dataset to uncover patterns and insights related to product success metrics in an online retail context.
+Exploratory Data Analysis (EDA) on a dataset simulating product performance in an e-commerce context. The goal is to uncover insights related to pricing, discounts, customer satisfaction, return rates, and delivery efficiency.
 
-Using Python and data visualization libraries, this EDA investigates how variables like price, discount rate, customer reviews, delivery times, and stock availability relate to product ratings and return rates.
+---
 
-## 🎯 Goals
+## 📌 Project Overview
 
-- Understand how product attributes impact return rates and customer satisfaction
-- Identify which categories underperform or excel
-- Prepare insights for business or ML model usage
+This project explores how various product-related attributes (price, discount rate, ratings, number of reviews, delivery time, etc.) influence product performance — especially return rates and customer satisfaction.
 
-## 🛠️ Tools Used
+The dataset is synthetically generated but mimics realistic e-commerce behavior, making it suitable for data analysis and modeling exercises.
 
-- Python (Pandas, NumPy)
-- Matplotlib & Seaborn
+---
+
+## 🎯 Objectives
+
+- Understand the impact of price, rating, and delivery time on return rate.
+- Analyze product categories for performance trends and anomalies.
+- Create actionable insights for business decision-making or model input.
+
+---
+
+## 🧰 Tools & Technologies
+
+- Python 3.x
+- Pandas, NumPy
+- Seaborn, Matplotlib
 - Jupyter Notebook
 
-## 📈 Key Insights (examples)
+---
 
-- Higher discount rates tend to correlate with higher return rates
-- Products with more reviews tend to have more stable ratings
-- Certain categories exhibit longer delivery delays and higher return rates
+## 📁 Project Structure
 
-## 📁 Structure
+├── data/
+│ └── ecommerce_product_performance.csv
+├── notebooks/
+│ └── 01_eda_ecommerce_products.ipynb
+├── img/
+│ └── price_distribution.png
+│ └── correlation_heatmap.png
+├── README.md
 
-- `notebooks/`: EDA notebook with visualizations and commentary
-- `data/`: Cleaned dataset
-- `img/`: Graph exports
+
+---
+
+## 📊 Key Insights
+
+- **Higher discounts often correlate with higher return rates** — possibly due to impulse buying.
+- **Ratings and number of reviews are positively correlated**, suggesting customer engagement.
+- **Long delivery times tend to be associated with more returns**, especially in certain product categories.
+- Certain **categories consistently underperform**, which could help prioritize product audits.
+
+---
+
+## 🚀 Next Steps
+
+- Use findings to engineer features for predictive models (e.g., Return Rate Prediction).
+- Develop an interactive dashboard (e.g., with Streamlit).
+- Integrate pipeline tracking via MLflow in upcoming MLOps version of the project.
+
+---
+
+## 📎 Dataset Source
+
+[E-Commerce Product Performance Dataset – Kaggle]
+
+---
+
+## 👨‍💻 Author
+
+**[Alexandre Henin]**  
+Junior Data Analyst & MLOps | [LinkedIn](#) | [Portfolio](#) | [GitHub](#)
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
