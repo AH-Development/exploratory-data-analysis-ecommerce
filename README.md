@@ -31,11 +31,15 @@ The dataset is synthetically generated but mimics realistic e-commerce behavior,
 
 ## 📁 Project Structure
 
-**Project structure:**  
-`data/ecommerce_product_performance.csv`,  
-`notebooks/01_eda_ecommerce_products.ipynb`,  
-`img/price_distribution.png`, `img/correlation_heatmap.png`,  
-`README.md`
+📦 EDA - E-Commerce Product Performance
+├── 📁 data
+│ └── ecommerce_product_performance.csv
+├── 📁 notebooks
+│ └── 01_eda_ecommerce_products.ipynb
+├── 📁 img
+│ ├── price_distribution.png
+│ └── correlation_heatmap.png
+└── 📄 README.md
 
 
 
