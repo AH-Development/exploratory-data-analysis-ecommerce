@@ -1,77 +1,87 @@
-# 🛒 EDA - E-Commerce Product Performance
+# 📊 Exploratory Data Analysis & Data Cleaning | E-Commerce
 
-Exploratory Data Analysis (EDA) on a dataset simulating product performance in an e-commerce context. The goal is to uncover insights related to pricing, discounts, customer satisfaction, return rates, and delivery efficiency.
+Exploratory Data Analysis (EDA), Data Cleaning, Trend Visualization, Statistical & Predictive Modeling, and Interactive Dashboards for an e-commerce dataset. This project follows a modular approach with separate notebooks for each task.
 
 ---
 
 ## 📌 Project Overview
 
-This project explores how various product-related attributes (price, discount rate, ratings, number of reviews, delivery time, etc.) influence product performance — especially return rates and customer satisfaction.
+This project focuses on analyzing and cleaning an e-commerce dataset, followed by visualizing the trends, building statistical models, and creating interactive dashboards. The goal is to prepare the data for further analysis, uncover valuable insights, and help in business decision-making.
 
-The dataset is synthetically generated but mimics realistic e-commerce behavior, making it suitable for data analysis and modeling exercises.
+Each task is broken down into separate Jupyter Notebooks for modular execution and clarity. The following sections are covered:
+
+- **EDA and Data Cleaning**: Exploring and cleaning the data to ensure its quality.
+- **Trend Visualization**: Creating visualizations to highlight key trends.
+- **Statistical & Predictive Modeling**: Developing models to understand and predict the data.
+- **Interactive Dashboards**: Creating interactive dashboards for data exploration and decision-making.
 
 ---
 
 ## 🎯 Objectives
 
-- Understand the impact of price, rating, and delivery time on return rate.
-- Analyze product categories for performance trends and anomalies.
-- Create actionable insights for business decision-making or model input.
+- **EDA and Data Cleaning**: Perform a detailed exploration and cleaning of the dataset, handling missing values, outliers, and ensuring correct data types.
+- **Trend Visualization**: Visualize key trends in the data, such as customer behavior, product performance, and delivery efficiency.
+- **Statistical & Predictive Modeling**: Build models to predict return rates, customer satisfaction, and other relevant metrics.
+- **Interactive Dashboards**: Design dashboards for real-time, interactive data exploration and decision-making.
 
 ---
 
 ## 🧰 Tools & Technologies
 
-- Python 
-- Pandas, NumPy
-- Seaborn, Matplotlib
-- Jupyter Notebook
+- **Python**
+- **Pandas** & **NumPy** for data manipulation
+- **Matplotlib**, **Seaborn**, **Plotly** for visualizations
+- **Scikit-learn** for predictive modeling
+- **Apache Superset** for dashboard creation
+- **Jupyter Notebook**
 
 ---
 
 ## 📁 Project Structure
 
-📦 EDA - E-Commerce Product Performance<br>
+📦 EDA - E-Commerce<br>
 ├── 📁 data<br>
-│ └── ecommerce_product_performance.csv<br>
+│ └── raw_data.csv<br>
 ├── 📁 notebooks<br>
-│ └── 01_eda_ecommerce_products.ipynb<br>
+│ ├── 01_eda_and_data_cleaning.ipynb<br>
+│ ├── 02_trend_visualization.ipynb<br>
+│ ├── 03_statistical_predictive_modeling.ipynb<br>
+│ └── 04_interactive_dashboards.ipynb<br>
 ├── 📁 img<br>
-│ ├── price_distribution.png<br>
-│ └── correlation_heatmap.png<br>
+│ ├── missing_values_heatmap.png<br>
+│ └── trend_visualization.png<br>
 └── 📄 README.md<br>
-
-
 
 ---
 
 ## 📊 Key Insights
 
-- **Higher discounts often correlate with higher return rates** — possibly due to impulse buying.
-- **Ratings and number of reviews are positively correlated**, suggesting customer engagement.
-- **Long delivery times tend to be associated with more returns**, especially in certain product categories.
-- Certain **categories consistently underperform**, which could help prioritize product audits.
+- **EDA and Data Cleaning**: Handling missing values and outliers significantly improved data quality, allowing for more accurate analysis and modeling.
+- **Trend Visualization**: Visualizations revealed that products with high discounts tend to have higher return rates, and that delivery time is a key factor in customer satisfaction.
+- **Statistical & Predictive Modeling**: Predictive models were built to forecast return rates and customer satisfaction based on product attributes.
+- **Interactive Dashboards**: Dashboards were created to allow dynamic filtering and exploration of key performance metrics, facilitating decision-making.
 
 ---
 
 ## 🚀 Next Steps
 
-- Use findings to engineer features for predictive models.
-- Develop an interactive dashboard.
-- Integrate pipeline tracking via MLflow in upcoming MLOps version of the project.
+- **Enhance the predictive models** with more features (e.g., customer demographics, seasonality).
+- **Deploy the dashboards** for real-time use by business teams.
+- **Track model performance** using MLflow or similar tools.
+- Explore the integration of advanced machine learning techniques for deeper insights.
 
 ---
 
 ## 📎 Dataset Source
 
-[E-Commerce Product Performance Dataset – Kaggle]
+[Dataset Source](#) — Placeholder for dataset link.
 
 ---
 
 ## 👨‍💻 Author
 
 **Alexandre Henin**  
-Junior Data Analyst & MLOps | [LinkedIn](#) | [Portfolio](#) | [GitHub](#)
+Junior Data & ML Analyst | [LinkedIn](#) | [Portfolio](#) | [GitHub](#)
 
 ---
 
